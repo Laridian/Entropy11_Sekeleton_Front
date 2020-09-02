@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tăng Tốc - Entropy 11</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <style media="screen">
+      .circle {
+        position: absolute;
+        /* left: 170px;
+        top: 40px; */
+        top: 35px;
+        left: 163px;
+        background: #be1e2d;
+        height: 130px;
+        width: 130px;
+        border-radius: 75px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .circle span {
+        font-size: 40px;
+        align-self: center;
+        color: #fff;
+      }
+      .question {
+        position: absolute;
+        /* left: 245px;
+        top: 85px;
+        height: 140px;
+        width: 785px; */
+        left: 225px;
+        top: 82px;
+        height: 120px;
+        width: 685px;
+        padding: 10px 10px 10px 75px;
+        border-style: solid;
+        border-color: #be1e2d;
+        border-width: 3px;
+        font-family: "Roboto Mono", monospace;
+        font-size: 14px;
+      }
+      .slider {
+        position: absolute;
+        /* left: 72px;
+        top: 205px; */
+        left: 80px;
+        top: 172px;
+        /* width: 130px;
+        height: 585px; */
+        width: 112px;
+        height: auto;
+        /* height: auto sẽ tự động maintain aspect ratio */
+        /* margin-bottom: 70px; */
+      }
+      .logo {
+        position: absolute;
+        /* top: 70px;
+        left: 1170px;
+        width: 340px;
+        height: 320px; */
+        left: 1003px;
+        top: 70px;
+        width: 255px;
+      }
+      .image {
+        position: absolute;
+        /* left: 245px;
+        top: 285px; */
+        left: 225px;
+        top: 265px;
+        /* width: 900px;
+        height: 480px; */
+        width: 776px;
+        height: 406px;
+        /* margin-bottom: 70px; */
+      }
+
+      #names-list {
+        position: absolute;
+        top: 345px;
+        left: 1010px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .player {
+        width: 250px;
+        height: 50px;
+        border: solid 2px #888;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      #hourglass {
+        width: 55px;
+        position: absolute;
+        left: 139px;
+        top: 638px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="question">
+      Nulla facilisi. Pellentesque efficitur efficitur nibh id facilisis. Mauris
+      ut vestibulum augue. Quisque ornare porttitor turpis id sollicitudin.
+      Curabitur quis elit sit amet ex placerat viverra at a nisi. Cras quis
+      sollicitudin turpis, sit amet blandit ligula. Fusce id aliquet ipsum. Cras
+      tincidunt cursus varius. Pellentesque aliquam, ex at laoreet lacinia, arcu
+      quam auctor ligula, et malesuada odio libero nec felis. Pellentesque
+      habitant morbi tristique senectus
+    </p>
+    <div class="circle">
+      <span>stt</span>
+    </div>
+    <img class="slider" src="..\..\img\TT-Pattern.png" alt="" />
+    <img class="logo" src="..\..\img\TT-Logo.png" alt="" />
+    <img class="image" src="..\..\img\black.png" alt="" />
+    <div id="names-list">
+      <div class="player" id="1">Người chơi 1 (40 điểm)</div>
+      <div class="player" id="2"></div>
+      <div class="player" id="3"></div>
+      <div class="player" id="4"></div>
+    </div>
+    <img src="/img/sandclock.svg" alt="" srcset="" id="hourglass" />
+  </body>
+  <script src="./TT.js"></script>
+</html>
