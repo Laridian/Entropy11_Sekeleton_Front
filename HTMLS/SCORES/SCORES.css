@@ -1,0 +1,597 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Open Sans", serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+#main {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(22, 22, 22, 1);
+  width: 1280px;
+  height: 720px;
+}
+
+#main .scorespattern {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 190px;
+  height: 185px;
+  left: 531px;
+  top: 0px;
+}
+
+#main .scorespattern .intersection1 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  fill: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  width: 190px;
+  height: 185px;
+}
+
+#main .scorespattern .rectangle5 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(22, 22, 22, 1);
+  border: none 1px rgba(112, 112, 112, 1);
+  box-shadow: none;
+  width: 27px;
+  height: 29px;
+  left: 160px;
+  top: 59px;
+}
+
+#main .scoresgridcurve34e42535 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  fill: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  width: 76.33px;
+  height: 188.4px;
+  left: 689.9px;
+  top: 62px;
+}
+
+#main .scoreComponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 480px;
+  height: 164px;
+}
+
+.image {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 1);
+  border: none 1px rgba(112, 112, 112, 1);
+  box-shadow: none;
+  width: 192px;
+  height: 164px;
+}
+
+.name {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(190, 30, 45, 1);
+  border: none 1px rgba(112, 112, 112, 1);
+  box-shadow: none;
+  width: 288px;
+  height: 44px;
+}
+
+.score {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 1);
+  border: none 1px rgba(112, 112, 112, 1);
+  -webkit-filter: drop-shadow(6px -4px 0px rgba(190, 30, 45, 1));
+  filter: drop-shadow(6px -4px 0px rgba(190, 30, 45, 1));
+  width: 121px;
+  height: 86px;
+}
+
+#main #scoreComponent1 {
+  left: 151px;
+  top: 185px;
+}
+
+#main #scoreComponent1 .image {
+  left: 288px;
+  top: 0px;
+}
+
+#main #scoreComponent1 .name {
+  left: 0px;
+  top: 120px;
+}
+
+#main #scoreComponent1 .score {
+  left: 0px;
+  top: 23px;
+}
+
+#main #scoreComponent2 {
+  left: 646px;
+  top: 184px;
+}
+
+#main #scoreComponent2 .image {
+}
+
+#main #scoreComponent2 .name {
+  left: 192px;
+  top: 120px;
+}
+
+#main #scoreComponent2 .score {
+  left: 359px;
+  top: 23px;
+}
+
+#main #scoreComponent3 {
+  left: 151px;
+  top: 368px;
+}
+
+#main #scoreComponent3 .image {
+  left: 288px;
+  top: 0px;
+}
+
+#main #scoreComponent3 .name {
+  left: 0px;
+  top: 120px;
+}
+
+#main #scoreComponent3 .score {
+  left: 0px;
+  top: 23px;
+}
+
+#main #scoreComponent4 {
+  left: 646px;
+  top: 368px;
+}
+
+#main #scoreComponent4 .name {
+  left: 192px;
+  top: 120px;
+}
+
+#main #scoreComponent4 .score {
+  left: 359px;
+  top: 23px;
+}
+
+#main .scores5x3 {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: transparent;
+  width: 67px;
+  height: 34px;
+  left: 833px;
+  top: 383px;
+}
+
+#main .scores5x3 .rectangle216d52c04 {
+}
+
+#main .scores5x3 .rectangle2485aafe6 {
+  left: 14px;
+  top: 0px;
+}
+
+#main .scores5x3 .rectangle27a1ae4cf {
+  left: 28px;
+  top: 0px;
+}
+
+#main .scores5x3 .rectangle21568e8b1 {
+  left: 42px;
+  top: 0px;
+}
+
+#main .scores5x3 .rectangle2a6356491 {
+  left: 56px;
+  top: 0px;
+}
+
+#main .scores5x3 .rectangle2627b473c {
+  left: 0px;
+  top: 14px;
+}
+
+#main .scores5x3 .rectangle2b8540815 {
+  left: 14px;
+  top: 14px;
+}
+
+#main .scores5x3 .rectangle22899a16b {
+  left: 28px;
+  top: 14px;
+}
+
+#main .scores5x3 .rectangle2bbdcd552 {
+  left: 42px;
+  top: 14px;
+}
+
+#main .scores5x3 .rectangle2e74090be {
+  left: 56px;
+  top: 14px;
+}
+
+#main .scores5x3 .rectangle23cdc5381 {
+  left: 0px;
+  top: 28px;
+}
+
+#main .scores5x3 .rectangle2dbd07c77 {
+  left: 14px;
+  top: 28px;
+}
+
+#main .scores5x3 .rectangle21b68b1e8 {
+  left: 28px;
+  top: 28px;
+}
+
+#main .scores5x3 .rectangle249ba4f99 {
+  left: 42px;
+  top: 28px;
+}
+
+#main .scores5x3 .rectangle23a7e092f {
+  left: 56px;
+  top: 28px;
+}
+
+#main .scores4x4 {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: transparent;
+  width: 51px;
+  height: 54px;
+  left: 413px;
+  top: 383px;
+}
+
+.scores4x4 div {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(190, 30, 45, 1);
+  border: none 1px rgba(112, 112, 112, 1);
+  box-shadow: none;
+  width: 4px;
+  height: 4px;
+}
+
+#main .scores4x4 .rectangle35ce28582 {
+}
+
+#main .scores4x4 .rectangle367d2dc4c {
+  left: 14px;
+  top: 0px;
+}
+
+#main .scores4x4 .rectangle33ceae2b9 {
+  left: 28px;
+  top: 0px;
+}
+
+#main .scores4x4 .rectangle3af71a494 {
+  left: 42px;
+  top: 0px;
+}
+
+#main .scores4x4 .rectangle3974c9204 {
+  left: 0px;
+  top: 14px;
+}
+
+#main .scores4x4 .rectangle331b7968d {
+  left: 14px;
+  top: 14px;
+}
+
+#main .scores4x4 .rectangle3950475d6 {
+  left: 28px;
+  top: 14px;
+}
+
+#main .scores4x4 .rectangle33a1682ee {
+  left: 42px;
+  top: 14px;
+}
+
+#main .scores4x4 .rectangle363a7d73f {
+  left: 0px;
+  top: 28px;
+}
+
+#main .scores4x4 .rectangle33f21f4cf {
+  left: 14px;
+  top: 28px;
+}
+
+#main .scores4x4 .rectangle330d17b28 {
+  left: 28px;
+  top: 28px;
+}
+
+#main .scores4x4 .rectangle3215bfd81 {
+  left: 42px;
+  top: 28px;
+}
+
+#main .scores4x4 .rectangle3cf8a2429 {
+  left: 0px;
+  top: 42px;
+}
+
+#main .scores4x4 .rectangle3824b0695 {
+  left: 14px;
+  top: 42px;
+}
+
+#main .scores4x4 .rectangle37998a26c {
+  left: 28px;
+  top: 42px;
+}
+
+#main .scores4x4 .rectangle3 {
+  left: 42px;
+  top: 42px;
+}
+
+.recpattern div {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(190, 30, 45, 1);
+  border: solid 1px rgba(190, 30, 45, 1);
+  box-shadow: none;
+  width: 4px;
+  height: 4px;
+}
+
+#main .scores3x5 {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: transparent;
+  width: 34px;
+  height: 67px;
+  left: 469px;
+  top: 173px;
+}
+
+#main .scores3x5 .rectangle269474eb9 {
+}
+
+#main .scores3x5 .rectangle225f40739 {
+  left: 14px;
+  top: 0px;
+}
+
+#main .scores3x5 .rectangle27fd1b15e {
+  left: 28px;
+  top: 0px;
+}
+
+#main .scores3x5 .rectangle2fbf16312 {
+  left: 0px;
+  top: 14px;
+}
+
+#main .scores3x5 .rectangle2596a18bc {
+  left: 14px;
+  top: 14px;
+}
+
+#main .scores3x5 .rectangle24f6a9fe6 {
+  left: 28px;
+  top: 14px;
+}
+
+#main .scores3x5 .rectangle27a0d1d17 {
+  left: 0px;
+  top: 28px;
+}
+
+#main .scores3x5 .rectangle273a0763b {
+  left: 14px;
+  top: 28px;
+}
+
+#main .scores3x5 .rectangle277c85adf {
+  left: 28px;
+  top: 28px;
+}
+
+#main .scores3x5 .rectangle20dd9910b {
+  left: 0px;
+  top: 42px;
+}
+
+#main .scores3x5 .rectangle228ebe901 {
+  left: 14px;
+  top: 42px;
+}
+
+#main .scores3x5 .rectangle2d5d40b7f {
+  left: 28px;
+  top: 42px;
+}
+
+#main .scores3x5 .rectangle2e89ce3c8 {
+  left: 0px;
+  top: 56px;
+}
+
+#main .scores3x5 .rectangle254d0e095 {
+  left: 14px;
+  top: 56px;
+}
+
+#main .scores3x5 .rectangle2 {
+  left: 28px;
+  top: 56px;
+}
+
+#main .scoresLogo {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("../../img/scoresLogo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  border: none 1px rgba(112, 112, 112, 1);
+  box-shadow: none;
+  width: 481px;
+  height: 160.5px;
+  left: 404px;
+  top: 558px;
+}
